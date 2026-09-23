@@ -1,0 +1,392 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:c3fa8621-0b47-4add-a25b-8910a3c26e06#"
+     xml:base="urn:webprotege:ontology:c3fa8621-0b47-4add-a25b-8910a3c26e06"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:c3fa8621-0b47-4add-a25b-8910a3c26e06"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9W1iimIYRy7zfViWQfT7oo -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R9W1iimIYRy7zfViWQfT7oo">
+        <rdfs:label>hasTransmission</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCarviNCUL3pQiTdWhdrbwX -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RCarviNCUL3pQiTdWhdrbwX">
+        <rdfs:label>hasEngine</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD4F69vDdUYdSDUWnZr5Ge -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RD4F69vDdUYdSDUWnZr5Ge">
+        <rdfs:label>hasWheel</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDxP8dErqLt89OXmyVGnOHS -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RDxP8dErqLt89OXmyVGnOHS">
+        <rdfs:label>hasBody</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9PL0unmIpvgIrhPzKcrzP8 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9PL0unmIpvgIrhPzKcrzP8">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8WkeZuW2blNWg9k2FnHgMw"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RCZu8oYMdISTbUgSBGPzhc1"/>
+        <rdfs:label>имеет кузов</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC87pnI9xlhBkFHbxVegOZv -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RC87pnI9xlhBkFHbxVegOZv">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8WkeZuW2blNWg9k2FnHgMw"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RC33euBTfFGxQAz3TKd6XVI"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RCZu8oYMdISTbUgSBGPzhc1"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/Rfs9QJcDcP6gQ01Ww1naMj"/>
+        <rdfs:label>имеет компоненты</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCFqMEPNFD286Qlb7COimnm -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCFqMEPNFD286Qlb7COimnm">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8WkeZuW2blNWg9k2FnHgMw"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/Rfs9QJcDcP6gQ01Ww1naMj"/>
+        <rdfs:label>имеет колеса</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCMOBJmOnRDGGEBYnSTgX4Y -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCMOBJmOnRDGGEBYnSTgX4Y">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8WkeZuW2blNWg9k2FnHgMw"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R9qFqQevmBS31sllhzmMPDB"/>
+        <rdfs:label>имеет двигатель</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RHnLv8afrjVG4iBLqB2Rfc -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RHnLv8afrjVG4iBLqB2Rfc">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8WkeZuW2blNWg9k2FnHgMw"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RC33euBTfFGxQAz3TKd6XVI"/>
+        <rdfs:label>имеет трансмиссию</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8WnX7dbtzrfSKBDCbu3CH0 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8WnX7dbtzrfSKBDCbu3CH0">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9qFqQevmBS31sllhzmMPDB"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>мощность</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R90GmDTF7P9a0AtxmJzSFJD -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R90GmDTF7P9a0AtxmJzSFJD">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8WkeZuW2blNWg9k2FnHgMw"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>марка</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCSZtQipgU8azPAxvZlSmc0 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCSZtQipgU8azPAxvZlSmc0">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8WkeZuW2blNWg9k2FnHgMw"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>год выпуска</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RF2rtFTRuaGduC0cqR3qn0 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RF2rtFTRuaGduC0cqR3qn0">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCZu8oYMdISTbUgSBGPzhc1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>цвет</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R2Dwaogylnn1Wu7zCyo84C -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R2Dwaogylnn1Wu7zCyo84C">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rfs9QJcDcP6gQ01Ww1naMj"/>
+        <rdfs:label>ПереднееКолесо</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8SMAjK0gto8F58lcssAUV4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8SMAjK0gto8F58lcssAUV4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC33euBTfFGxQAz3TKd6XVI"/>
+        <rdfs:label>АвтоматическаяКПП</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8WkeZuW2blNWg9k2FnHgMw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8WkeZuW2blNWg9k2FnHgMw">
+        <rdfs:label>Автомобиль</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9qFqQevmBS31sllhzmMPDB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9qFqQevmBS31sllhzmMPDB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8WkeZuW2blNWg9k2FnHgMw"/>
+        <rdfs:label>Двигатель</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9t8Wi1cZxYDtUliMFWmJiZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9t8Wi1cZxYDtUliMFWmJiZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC33euBTfFGxQAz3TKd6XVI"/>
+        <rdfs:label>МеханическаяКПП</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBCKLQ6oxL9Dfl7sEdZFBOP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBCKLQ6oxL9Dfl7sEdZFBOP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9qFqQevmBS31sllhzmMPDB"/>
+        <rdfs:label>Электродвигатель</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBxXlzkG0kniLEsOcXs8Awq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBxXlzkG0kniLEsOcXs8Awq">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rfs9QJcDcP6gQ01Ww1naMj"/>
+        <rdfs:label>ЗаднееКолесо</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC33euBTfFGxQAz3TKd6XVI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC33euBTfFGxQAz3TKd6XVI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8WkeZuW2blNWg9k2FnHgMw"/>
+        <rdfs:label>Трансмиссия</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCHJ6YLFFvQchz5fwwfgTeG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCHJ6YLFFvQchz5fwwfgTeG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCZu8oYMdISTbUgSBGPzhc1"/>
+        <rdfs:label>Внедорожник</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCR7EVIHgcJ4DFWNjaBS17L -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCR7EVIHgcJ4DFWNjaBS17L">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCZu8oYMdISTbUgSBGPzhc1"/>
+        <rdfs:label>Седан</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCZu8oYMdISTbUgSBGPzhc1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCZu8oYMdISTbUgSBGPzhc1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8WkeZuW2blNWg9k2FnHgMw"/>
+        <rdfs:label>Кузов</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDULDmR0SYLoPjr5TLVRyJn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDULDmR0SYLoPjr5TLVRyJn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9qFqQevmBS31sllhzmMPDB"/>
+        <rdfs:label>БензиновыйДвигатель</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RTOEDhZeCvh26PKDovnLv0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RTOEDhZeCvh26PKDovnLv0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9qFqQevmBS31sllhzmMPDB"/>
+        <rdfs:label>ДизельныйДвигатель</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rfs9QJcDcP6gQ01Ww1naMj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rfs9QJcDcP6gQ01Ww1naMj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8WkeZuW2blNWg9k2FnHgMw"/>
+        <rdfs:label>Колесо</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7IpFVU21wh55Rfq29EGzXD -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7IpFVU21wh55Rfq29EGzXD">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Rfs9QJcDcP6gQ01Ww1naMj"/>
+        <rdfs:label>колесо01</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7rUysMhEe9zAntp45inKL2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7rUysMhEe9zAntp45inKL2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9qFqQevmBS31sllhzmMPDB"/>
+        <rdfs:label>двигатель01</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBhdYUx0kEB8deaoKiM4CT7 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBhdYUx0kEB8deaoKiM4CT7">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCZu8oYMdISTbUgSBGPzhc1"/>
+        <rdfs:label>кузов01</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBmxG7PDoL8kkZrQvtVV0bw -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBmxG7PDoL8kkZrQvtVV0bw">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8WkeZuW2blNWg9k2FnHgMw"/>
+        <webprotege:R9PL0unmIpvgIrhPzKcrzP8 rdf:resource="http://webprotege.stanford.edu/RBhdYUx0kEB8deaoKiM4CT7"/>
+        <webprotege:RCFqMEPNFD286Qlb7COimnm rdf:resource="http://webprotege.stanford.edu/R7IpFVU21wh55Rfq29EGzXD"/>
+        <webprotege:RCFqMEPNFD286Qlb7COimnm rdf:resource="http://webprotege.stanford.edu/RCO0C2r4uBqsXQDZxLmI1BI"/>
+        <webprotege:RCMOBJmOnRDGGEBYnSTgX4Y rdf:resource="http://webprotege.stanford.edu/R7rUysMhEe9zAntp45inKL2"/>
+        <webprotege:RHnLv8afrjVG4iBLqB2Rfc rdf:resource="http://webprotege.stanford.edu/RDufoLqQ4TYe7uvScH8b2zT"/>
+        <webprotege:R8WnX7dbtzrfSKBDCbu3CH0 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</webprotege:R8WnX7dbtzrfSKBDCbu3CH0>
+        <webprotege:R90GmDTF7P9a0AtxmJzSFJD rdf:datatype="http://www.w3.org/2001/XMLSchema#string">бмв х5</webprotege:R90GmDTF7P9a0AtxmJzSFJD>
+        <webprotege:RCSZtQipgU8azPAxvZlSmc0 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</webprotege:RCSZtQipgU8azPAxvZlSmc0>
+        <webprotege:RF2rtFTRuaGduC0cqR3qn0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">черный</webprotege:RF2rtFTRuaGduC0cqR3qn0>
+        <rdfs:label>Автомобиль01</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCO0C2r4uBqsXQDZxLmI1BI -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCO0C2r4uBqsXQDZxLmI1BI">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Rfs9QJcDcP6gQ01Ww1naMj"/>
+        <rdfs:label>колесо02</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDufoLqQ4TYe7uvScH8b2zT -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDufoLqQ4TYe7uvScH8b2zT">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC33euBTfFGxQAz3TKd6XVI"/>
+        <rdfs:label>трансмиссия01</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
