@@ -1,0 +1,631 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/zxcur/ontologies/2026/9/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/zxcur/ontologies/2026/9/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.semanticweb.org/zxcur/ontologies/2026/9/untitled-ontology-3/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#игрок"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#команда"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#турнир"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPlayer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isChampionOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTeammateOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#participatesIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#playedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#playsFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#won"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNickname"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPrizePool"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTeamName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Collapse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#N0tail"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TI2019"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TI2021"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TeamSpirit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Topson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yatoro"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <DisjointClasses>
+        <Class IRI="#игрок"/>
+        <Class IRI="#команда"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#игрок"/>
+        <Class IRI="#турнир"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#команда"/>
+        <Class IRI="#турнир"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#игрок"/>
+        <NamedIndividual IRI="#Collapse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#команда"/>
+        <NamedIndividual IRI="#Collapse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#игрок"/>
+        <NamedIndividual IRI="#N0tail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#команда"/>
+        <NamedIndividual IRI="#N0tail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#игрок"/>
+        <NamedIndividual IRI="#OG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#команда"/>
+        <NamedIndividual IRI="#OG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#команда"/>
+        <NamedIndividual IRI="#TI2019"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#турнир"/>
+        <NamedIndividual IRI="#TI2019"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#команда"/>
+        <NamedIndividual IRI="#TI2021"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#турнир"/>
+        <NamedIndividual IRI="#TI2021"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#игрок"/>
+        <NamedIndividual IRI="#TeamSpirit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#команда"/>
+        <NamedIndividual IRI="#TeamSpirit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#игрок"/>
+        <NamedIndividual IRI="#Topson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#команда"/>
+        <NamedIndividual IRI="#Topson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#игрок"/>
+        <NamedIndividual IRI="#Yatoro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#команда"/>
+        <NamedIndividual IRI="#Yatoro"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Collapse"/>
+        <NamedIndividual IRI="#N0tail"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Collapse"/>
+        <NamedIndividual IRI="#Topson"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Collapse"/>
+        <NamedIndividual IRI="#Yatoro"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#N0tail"/>
+        <NamedIndividual IRI="#Topson"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#N0tail"/>
+        <NamedIndividual IRI="#Yatoro"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Topson"/>
+        <NamedIndividual IRI="#Yatoro"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isChampionOf"/>
+        <NamedIndividual IRI="#Collapse"/>
+        <NamedIndividual IRI="#TI2021"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeammateOf"/>
+        <NamedIndividual IRI="#Collapse"/>
+        <NamedIndividual IRI="#TeamSpirit"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeammateOf"/>
+        <NamedIndividual IRI="#Collapse"/>
+        <NamedIndividual IRI="#Yatoro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedIn"/>
+        <NamedIndividual IRI="#Collapse"/>
+        <NamedIndividual IRI="#TI2021"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playsFor"/>
+        <NamedIndividual IRI="#Collapse"/>
+        <NamedIndividual IRI="#TeamSpirit"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playsFor"/>
+        <NamedIndividual IRI="#Collapse"/>
+        <NamedIndividual IRI="#Yatoro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isChampionOf"/>
+        <NamedIndividual IRI="#N0tail"/>
+        <NamedIndividual IRI="#TI2019"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeammateOf"/>
+        <NamedIndividual IRI="#N0tail"/>
+        <NamedIndividual IRI="#OG"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeammateOf"/>
+        <NamedIndividual IRI="#N0tail"/>
+        <NamedIndividual IRI="#Topson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedIn"/>
+        <NamedIndividual IRI="#N0tail"/>
+        <NamedIndividual IRI="#TI2019"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedIn"/>
+        <NamedIndividual IRI="#N0tail"/>
+        <NamedIndividual IRI="#TI2021"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playsFor"/>
+        <NamedIndividual IRI="#N0tail"/>
+        <NamedIndividual IRI="#OG"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playsFor"/>
+        <NamedIndividual IRI="#N0tail"/>
+        <NamedIndividual IRI="#Topson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeammateOf"/>
+        <NamedIndividual IRI="#OG"/>
+        <NamedIndividual IRI="#N0tail"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeammateOf"/>
+        <NamedIndividual IRI="#OG"/>
+        <NamedIndividual IRI="#Topson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participatesIn"/>
+        <NamedIndividual IRI="#OG"/>
+        <NamedIndividual IRI="#TI2019"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participatesIn"/>
+        <NamedIndividual IRI="#OG"/>
+        <NamedIndividual IRI="#TI2021"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playsFor"/>
+        <NamedIndividual IRI="#OG"/>
+        <NamedIndividual IRI="#N0tail"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playsFor"/>
+        <NamedIndividual IRI="#OG"/>
+        <NamedIndividual IRI="#Topson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#won"/>
+        <NamedIndividual IRI="#OG"/>
+        <NamedIndividual IRI="#TI2019"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeammateOf"/>
+        <NamedIndividual IRI="#TeamSpirit"/>
+        <NamedIndividual IRI="#Collapse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeammateOf"/>
+        <NamedIndividual IRI="#TeamSpirit"/>
+        <NamedIndividual IRI="#Yatoro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participatesIn"/>
+        <NamedIndividual IRI="#TeamSpirit"/>
+        <NamedIndividual IRI="#TI2021"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playsFor"/>
+        <NamedIndividual IRI="#TeamSpirit"/>
+        <NamedIndividual IRI="#Collapse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playsFor"/>
+        <NamedIndividual IRI="#TeamSpirit"/>
+        <NamedIndividual IRI="#Yatoro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#won"/>
+        <NamedIndividual IRI="#TeamSpirit"/>
+        <NamedIndividual IRI="#TI2021"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isChampionOf"/>
+        <NamedIndividual IRI="#Topson"/>
+        <NamedIndividual IRI="#TI2019"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeammateOf"/>
+        <NamedIndividual IRI="#Topson"/>
+        <NamedIndividual IRI="#N0tail"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeammateOf"/>
+        <NamedIndividual IRI="#Topson"/>
+        <NamedIndividual IRI="#OG"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedIn"/>
+        <NamedIndividual IRI="#Topson"/>
+        <NamedIndividual IRI="#TI2019"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedIn"/>
+        <NamedIndividual IRI="#Topson"/>
+        <NamedIndividual IRI="#TI2021"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playsFor"/>
+        <NamedIndividual IRI="#Topson"/>
+        <NamedIndividual IRI="#N0tail"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playsFor"/>
+        <NamedIndividual IRI="#Topson"/>
+        <NamedIndividual IRI="#OG"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isChampionOf"/>
+        <NamedIndividual IRI="#Yatoro"/>
+        <NamedIndividual IRI="#TI2021"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeammateOf"/>
+        <NamedIndividual IRI="#Yatoro"/>
+        <NamedIndividual IRI="#Collapse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTeammateOf"/>
+        <NamedIndividual IRI="#Yatoro"/>
+        <NamedIndividual IRI="#TeamSpirit"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playedIn"/>
+        <NamedIndividual IRI="#Yatoro"/>
+        <NamedIndividual IRI="#TI2021"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playsFor"/>
+        <NamedIndividual IRI="#Yatoro"/>
+        <NamedIndividual IRI="#Collapse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playsFor"/>
+        <NamedIndividual IRI="#Yatoro"/>
+        <NamedIndividual IRI="#TeamSpirit"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNickname"/>
+        <NamedIndividual IRI="#Collapse"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNickname"/>
+        <NamedIndividual IRI="#N0tail"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTeamName"/>
+        <NamedIndividual IRI="#OG"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPrizePool"/>
+        <NamedIndividual IRI="#TI2019"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPrizePool"/>
+        <NamedIndividual IRI="#TI2021"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTeamName"/>
+        <NamedIndividual IRI="#TeamSpirit"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNickname"/>
+        <NamedIndividual IRI="#Topson"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNickname"/>
+        <NamedIndividual IRI="#Yatoro"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isTeammateOf"/>
+        <ObjectProperty IRI="#playsFor"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#isTeammateOf"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPlayer"/>
+        <Class IRI="#команда"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isChampionOf"/>
+        <Class IRI="#игрок"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isTeammateOf"/>
+        <Class IRI="#игрок"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#participatesIn"/>
+        <Class IRI="#команда"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#playedIn"/>
+        <Class IRI="#игрок"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#playsFor"/>
+        <Class IRI="#игрок"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#won"/>
+        <Class IRI="#команда"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPlayer"/>
+        <Class IRI="#игрок"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isChampionOf"/>
+        <Class IRI="#турнир"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTeammateOf"/>
+        <Class IRI="#игрок"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#participatesIn"/>
+        <Class IRI="#турнир"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#playedIn"/>
+        <Class IRI="#турнир"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#playsFor"/>
+        <Class IRI="#команда"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#won"/>
+        <Class IRI="#турнир"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPrizePool"/>
+        <Class IRI="#команда"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNickname"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPrizePool"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTeamName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>PlayedInRule:</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#playsFor"/>
+                <Variable IRI="/p"/>
+                <Variable IRI="/t"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#participatesIn"/>
+                <Variable IRI="/t"/>
+                <Variable IRI="/tr"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#playedIn"/>
+                <Variable IRI="/p"/>
+                <Variable IRI="/tr"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>TeammateRule:</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#playsFor"/>
+                <Variable IRI="/a"/>
+                <Variable IRI="/t"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#playsFor"/>
+                <Variable IRI="/b"/>
+                <Variable IRI="/t"/>
+            </ObjectPropertyAtom>
+            <DifferentIndividualsAtom>
+                <Variable IRI="/a"/>
+                <Variable IRI="/b"/>
+            </DifferentIndividualsAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isTeammateOf"/>
+                <Variable IRI="/a"/>
+                <Variable IRI="/b"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>ChampionRule:</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#playsFor"/>
+                <Variable IRI="/p"/>
+                <Variable IRI="/t"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#won"/>
+                <Variable IRI="/t"/>
+                <Variable IRI="/tr"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isChampionOf"/>
+                <Variable IRI="/p"/>
+                <Variable IRI="/tr"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>WinnerParticipated:</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#won"/>
+                <Variable IRI="/t"/>
+                <Variable IRI="/tr"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#participatesIn"/>
+                <Variable IRI="/t"/>
+                <Variable IRI="/tr"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
